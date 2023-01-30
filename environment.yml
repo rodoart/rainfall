@@ -1,0 +1,36 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: rainfall
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  - keras
+  - lightgbm
+  - matplotlib
+  - missingno
+  - nbdime
+  - numpy
+  - pandas
+  - pandas-flavor
+  - pandas-profiling
+  - pip
+  - plotly
+  - pyjanitor
+  - pylint
+  - pyprojroot
+  - pyspark
+  - python=3.10.9
+  - python-dotenv
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - tensorflow
+  - aiohttp
+  - aiofiles
+  
