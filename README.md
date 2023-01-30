@@ -1,5 +1,5 @@
 
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/rodolfo-arturo-gonzalez-trillo-93829219a)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/rodolfo-arturo-gonzález-trillo-93829219a)
 
 <!-- PROJECT LOGO -->
 <br />
