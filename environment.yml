@@ -33,4 +33,5 @@ dependencies:
   - tensorflow
   - aiohttp
   - aiofiles
+  - keras-tuner
   

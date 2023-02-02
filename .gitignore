@@ -66,6 +66,8 @@ target/
 *.ftr
 *.txt
 /tmp/
+/models/*/
+/models/*/
 
 # ipynb checkpoints
 .ipynb_checkpoints

@@ -1,26 +1,31 @@
-from rainfall.data.make_dataset import StationsDataFrame
-from datetime import date
+# from rainfall.data.make_dataset import StationsDataFrame
+# from datetime import date
 
-state = 'Durango'
-municipality = 'Durango'
+# state = 'Durango'
+# municipality = 'Durango'
 
-sdf  = StationsDataFrame()
+# sdf  = StationsDataFrame()
 
-print(sdf)
+# print(sdf)
 
-numbers = sdf._numbers_by_region(state, municipality)
+# numbers = sdf._numbers_by_region(state, municipality)
 
-print(numbers)
-station_1 = sdf.Station(numbers[0])
-print(station_1.df)
-
-
-dm = sdf.DailyMedians(state, municipality)
-
-date_interval = (date(1970,1,1), '')
+# print(numbers)
+# station_1 = sdf.Station(numbers[0])
+# print(station_1.df)
 
 
+# dm = sdf.DailyMedians(state, municipality)
 
-pm_montly = dm.PeriodicMedians('M', date_interval)
+# date_interval = (date(1970,1,1), '')
 
-print(pm_montly.skip_with_gaps())
+
+
+# pm_montly = dm.PeriodicMedians('M', date_interval)
+
+# print(pm_montly.skip_with_gaps())
+
+def functn(x):
+    return x
+
+print(callable(functn))

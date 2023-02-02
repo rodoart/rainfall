@@ -1,0 +1,1 @@
+{"recurrent_neural_network": {"best_parameters": {"regularizer_type": "None", "neurons_layer_1": 512, "neurons_layer_2": 128, "neurons_layer_3": 0, "learning_rate": 0.0001}, "mse": 2.2273569459996354, "r2_score": 0.20654154149617598, "mae": 0.7298459776795246, "explained_variance_score": 0.2210390993583603}}
