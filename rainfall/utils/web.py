@@ -22,13 +22,34 @@ mozilla = {
 from typing import List
 
 def asyncronous_download_from_urls(
-    url_list: list,
+    url_list: list[str],
     download_dirs: List[Path],
     limit: int = 3,
     http_ok: List[int] = [200],
     header: dict = mozilla,
     encoding: str = 'utf-8'
 ) -> None:
+    
+
+    """Simultaneously downloads url lists. Only plain text files allowed.
+
+    Args:
+        url_list: List of urls to download.
+
+        download_dirs: List of file destinies
+
+        limit: of simultaneous downloads. Default 3.    
+
+        http_ok: List of allowed http codes. Default is [200]
+
+        header: Provide the header, following the usual syntax of requests library.
+
+        encoding: Encoding of the text of the web page or file.
+
+    Returns:
+        A function that returns the path relative to a directory that can
+        receive `n` number of arguments for expansion.
+    """
 
 
     async def scrape(url_list, download_dirs):

@@ -2,8 +2,18 @@
 
 ## Prerequisites
 
+- Python 3.10.x
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
 - Optional [Mamba](https://mamba.readthedocs.io/en/latest/)
+
+
+## Clone the repository
+
+```
+git clone https://github.com/rodoart/rainfall
+```
+
+
 
 ## Create environment
 

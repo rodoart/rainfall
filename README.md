@@ -10,10 +10,30 @@
   <h3 align="center">Rainfall Analysis and Prediction</h3>
 
   <p align="center">
-    This project is an analysis of Rainfall in Mexico
+    This project is an exploratory and predictive analysis of the CONAGUA dataset that contains data taken daily on rainfall, temperature, and evaporation throughout all of Mexico. The city of Durango, Durango, is analyzed, but the provided rainfall library can be used as a pipeline for the download, cleaning and ordering of data from any other city.
   </p>
 </p>
 
+
+
+
+## Introduction
+
+Climate is perhaps one of the most important elements for defining a region and its inhabitants: animals, native plants, water availability depend on it, which form the basis of local ecology and its relationships with human society.
+
+
+
+
+CONAGUA and its National Meteorological Service collect real-time data from more than 1,000 weather stations in Mexico. On their [web page](https://smn.conagua.gob.mx/tools/RESOURCES/estacion/EstacionesClimatologicas.kmz) they grant access to this data in a `.kmz` file, which is used by various geographic information software and From here, access the historical information of each weather station.
+
+![Image of weather stations in Google Earth Pro.](https://i.ibb.co/5WLZNSQ/republica.jpg)
+
+
+In this project, I used Python to scrape the links from the kmz file. The `rainfall.make_dataset.StationsDataFrame` class can be used to download the data for each station or for an entire municipality or state. The `DailyMedians` method is used to organize the data by day, while the `rainfall.make_dataset.PeriodicMedians` class can be used to make the weekly or monthly average.
+
+Due to the variable nature of each region, presenting an automatic exploratory analysis method is practically impossible, so I present an example of [how to do this analysis for the city of Durango, Durango](notebooks/2.1_rainfall-data_exploration_durango_durango.ipynb) . I have included seasonal analysis and correlation of variables. The conclusions of this analysis can be found in reports.
+
+I have also made predictions for the rain variable using neural networks, random forests and grid search to optimize. This process is automated in the module: INSERT NAME HERE.
   
 ## Installation guide
 
@@ -71,7 +91,7 @@ Please read [install.md](install.md) for details on how to set up this project.
             └── visualize.py
 
 ---
-Project based on the [cookiecutter conda data science project template](https://github.com/jvelezmagic/cookiecutter-conda-data-science).
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

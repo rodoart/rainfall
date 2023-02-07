@@ -25,7 +25,8 @@
 
 # print(pm_montly.skip_with_gaps())
 
-def functn(x):
-    return x
 
-print(callable(functn))
+
+vec = ['hola', 5/3]
+print(f'{vec[0]} = {vec[1]:0.2f}')
+
